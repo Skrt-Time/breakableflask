@@ -1,0 +1,4 @@
+# Faux positif : setuptools 70.3.0 est déclaré dans le SBOM interne de pip
+# (pip/_vendor/bom.cdx.json). La faille concerne setuptools.package_index,
+# qui n'est pas embarqué par pip. pip est de toute façon désinstallé de l'image.
+CVE-2025-47273
